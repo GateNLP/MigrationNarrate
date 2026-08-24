@@ -59,7 +59,6 @@ MigrationNarrate/
 │   └── extract_transcripts.py
 │
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
