@@ -133,17 +133,9 @@ Each annotation batch was independently annotated by two annotators, with disagr
 
 We **do not redistribute the original YouTube videos or audio files**.
 
-Instead, the dataset provides YouTube video identifiers that can be used to locate videos that remain publicly available.
+Instead, the dataset provides YouTube video identifiers that can be used to locate videos that remain publicly available on YouTube.
 
-We provide a script for retrieving the videos:
-
-```text
-scripts/download_videos.py
-```
-
-Please note that YouTube videos may be removed, made private, or otherwise become unavailable over time. Consequently, it may not always be possible to reconstruct the complete original dataset.
-
-Users are responsible for ensuring that their use of YouTube content complies with the applicable YouTube Terms of Service and relevant copyright requirements.
+Please note that YouTube videos may be removed, or become unavailable over time. Consequently, it may not always be possible to access all videos included in the original dataset.
 
 ---
 
