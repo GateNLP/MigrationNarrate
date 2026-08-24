@@ -190,10 +190,6 @@ The paper was accepted to the **Main Conference of EMNLP 2026**.
 
 The **MigrationNarrate dataset and annotations** are released under the **CC BY-NC-SA 4.0** license for non-commercial research use.
 
-The license applies to the released metadata and annotations and does not grant rights to the underlying YouTube content. Original videos remain subject to the rights and terms of their respective creators and YouTube.
-
-See `LICENSE` for details.
-
 ---
 
 ## Contact
