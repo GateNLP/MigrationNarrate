@@ -40,17 +40,15 @@ The 1,115 annotated videos are divided into:
 
 ---
 
-## Repository Structure
-
 ```text
 MigrationNarrate/
 │
 ├── data/
-│   ├── labelled_metadata.csv
-│   └── unlabelled_metadata.csv
+│   ├── labelled_metadata.tsv
+│   └── unlabelled_metadata.tsv
 │
 ├── taxonomy/
-│   └── migration_narratives_taxonomy.csv
+│   └── migration_narratives_taxonomy.tsv
 │
 ├── scripts/
 │   ├── download_videos.py
@@ -61,7 +59,17 @@ MigrationNarrate/
 └── README.md
 ```
 
-### `data/labelled_metadata.csv`
+### `data/labelled_metadata.tsv`
+
+Contains the identifiers and human annotations for the **1,115 annotated YouTube videos**.
+
+### `data/unlabelled_metadata.tsv`
+
+Contains the identifiers of the **4,425 migration-related videos** retained by the automatic filtering pipeline but not selected for human annotation.
+
+### `taxonomy/migration_narratives_taxonomy.tsv`
+
+Contains the hierarchical migration narrative taxonomy used for annotation, including the **12 super-narratives and 53 narrative labels** and their definitions.
 
 Contains the identifiers and human annotations for the **1,115 annotated YouTube videos**.
 
