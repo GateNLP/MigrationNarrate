@@ -87,7 +87,6 @@ Recommended fields include:
 | `video_id`        | YouTube video identifier               |
 | `super_narrative` | Human-annotated super-narrative        |
 | `narrative`       | Human-annotated fine-grained narrative |
-| `split`           | `train`, `dev`, or `test`              |
 
 The annotation `None` indicates that, after human annotation/adjudication, no migration narrative was explicitly stated or strongly implied in the video.
 
