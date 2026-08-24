@@ -56,7 +56,6 @@ MigrationNarrate/
 │   └── migration_narratives_taxonomy.tsv
 │
 ├── scripts/
-│   ├── download_videos.py
 │   └── extract_transcripts.py
 │
 ├── requirements.txt
