@@ -47,6 +47,11 @@ MigrationNarrate/
 │   ├── labelled_data.tsv
 │   └── unlabelled_data.tsv
 │
+├── data_splits/
+│   ├── train.tsv
+│   ├── dev.tsv
+│   └── test.tsv
+│
 ├── taxonomy/
 │   └── migration_narratives_taxonomy.tsv
 │
