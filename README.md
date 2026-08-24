@@ -151,20 +151,40 @@ Users are responsible for ensuring that their use of YouTube content complies wi
 
 We **do not redistribute the generated video transcripts**.
 
-In our data collection pipeline, the videos were first downloaded and their transcripts were then generated locally using **faster-whisper**.
+The transcripts used in the paper were generated locally from the video files using **faster-whisper (`large-v3`)**.
 
-We provide a script for generating transcripts from the downloaded videos:
+We provide a script for generating transcripts from locally available video files:
 
-```text
-scripts/extract_transcripts.py
+```bash
+python scripts/extract_transcripts.py videos/
 ```
 
-The dataset can therefore be reconstructed following these steps:
+The `videos/` directory should contain the videos as MP4 files, with each file named using its corresponding YouTube video ID:
 
-1. Download the available videos using the released YouTube video identifiers.
-2. Generate transcripts from the downloaded videos using **faster-whisper**.
+```text
+videos/
+├── VIDEO_ID_1.mp4
+├── VIDEO_ID_2.mp4
+└── VIDEO_ID_3.mp4
+```
 
-Exact reconstructed transcripts may differ slightly from those used in the original experiments depending on video availability, software and model versions, and decoding configuration.
+For example:
+
+```text
+videos/abc123.mp4
+```
+
+For each video, the script generates a `.txt` transcript with the same video ID:
+
+```text
+videos/abc123.mp4
+videos/abc123.txt
+```
+
+The script automatically detects the language of each video and generates the transcript using **faster-whisper `large-v3`**.
+
+Please note that reconstructed transcripts may differ slightly from those used in the original experiments depending on software/model versions and the availability or version of the underlying video.
+
 
 ---
 
