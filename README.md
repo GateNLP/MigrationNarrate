@@ -100,8 +100,8 @@ The initial collection was subsequently filtered to retain videos:
 
 * published between **1 January 2024 and 30 September 2025**;
 * with a duration of **three minutes or less**;
-* for which a transcript could be generated; and
 * identified as migration-related using semantic similarity filtering.
+* Pre-annotated with GPT5.1 to select a diverse sample.
 
 After this process, **5,540 videos** remained in the filtered corpus.
 
