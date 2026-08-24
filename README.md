@@ -68,20 +68,6 @@ MigrationNarrate/
 
 Contains the identifiers and human annotations for the **1,115 annotated YouTube videos**.
 
-### `data/unlabelled_data.tsv`
-
-Contains the identifiers of the **4,425 migration-related videos** retained by the automatic filtering pipeline but not selected for human annotation.
-
-### `taxonomy/migration_narratives_taxonomy.tsv`
-
-Contains the hierarchical migration narrative taxonomy used for annotation, including the **12 super-narratives and 53 narrative labels** and their definitions.
-
-Contains the identifiers and human annotations for the **1,115 annotated YouTube videos**.
-
-The released dataset does **not** contain video files, audio, or transcripts.
-
-Recommended fields include:
-
 | Field             | Description                            |
 | ----------------- | -------------------------------------- |
 | `videoId`         | YouTube video identifier               |
@@ -89,6 +75,11 @@ Recommended fields include:
 | `narrative`       | Human-annotated fine-grained narrative |
 
 The annotation `None` indicates that, after human annotation/adjudication, no migration narrative was explicitly stated or strongly implied in the video.
+
+### `data/unlabelled_data.tsv`
+
+Contains the identifiers of the **4,425 migration-related videos** retained by the automatic filtering pipeline but not selected for human annotation.
+
 
 ### `data/unlabelled_data.tsv`
 
