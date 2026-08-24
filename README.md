@@ -145,6 +145,20 @@ We **do not redistribute the generated video transcripts**.
 
 The transcripts used in the paper were generated locally from the video files using **faster-whisper (`large-v3`)**.
 
+**Requirements**
+
+Install the required Python packages with:
+
+pip install -r requirements.txt
+
+The requirements.txt file contains the Python dependencies required by the transcription script, including faster-whisper and tqdm.
+
+The script also requires FFmpeg to be installed and available on the system path.
+
+For GPU transcription, a CUDA-compatible NVIDIA GPU and the CUDA/cuDNN libraries required by faster-whisper must be available.
+
+**Generating Transcripts**
+
 We provide a script for generating transcripts from locally available video files:
 
 ```bash
