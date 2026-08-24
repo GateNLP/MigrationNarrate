@@ -142,17 +142,17 @@ Each annotation batch was independently annotated by two annotators, with disagr
 
 ## Obtaining the Videos
 
-To comply with YouTube's Terms of Service and copyright requirements, **we do not redistribute the original YouTube videos or audio files**.
+We **do not redistribute the original YouTube videos or audio files**.
 
-Instead, the dataset provides YouTube video identifiers.
+Instead, the dataset provides YouTube video identifiers that can be used to locate videos that remain publicly available.
 
-A script for downloading videos that remain publicly available on YouTube is provided in:
+We provide a script for retrieving the videos:
 
 ```text
 scripts/download_videos.py
 ```
 
-Please note that YouTube content can be removed, made private, or otherwise become unavailable over time. Consequently, it may not always be possible to reconstruct the complete original dataset.
+Please note that YouTube videos may be removed, made private, or otherwise become unavailable over time. Consequently, it may not always be possible to reconstruct the complete original dataset.
 
 Users are responsible for ensuring that their use of YouTube content complies with the applicable YouTube Terms of Service and relevant copyright requirements.
 
@@ -162,21 +162,20 @@ Users are responsible for ensuring that their use of YouTube content complies wi
 
 We **do not redistribute the generated video transcripts**.
 
-The transcripts used in the paper were generated from the downloaded videos using **faster-whisper**.
+In our data collection pipeline, the videos were first downloaded and their transcripts were then generated locally using **faster-whisper**.
 
-We provide scripts to:
-
-* download available transcripts directly from YouTube; and
-* generate transcripts from downloaded videos using **faster-whisper** when needed.
+We provide a script for generating transcripts from the downloaded videos:
 
 ```text
-scripts/download_transcripts.py
 scripts/extract_transcripts.py
 ```
 
-Please note that some videos may not have transcripts available directly from YouTube. In such cases, transcripts can be generated from the downloaded video using the provided transcription script.
+The dataset can therefore be reconstructed following these steps:
 
-Exact reconstructed transcripts may differ slightly from those used in the original experiments depending on video availability, transcript availability, software/model versions, and decoding configuration.
+1. Download the available videos using the released YouTube video identifiers.
+2. Generate transcripts from the downloaded videos using **faster-whisper**.
+
+Exact reconstructed transcripts may differ slightly from those used in the original experiments depending on video availability, software and model versions, and decoding configuration.
 
 ---
 
