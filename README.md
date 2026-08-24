@@ -34,7 +34,7 @@ The 1,115 annotated videos are divided into:
 | Split       |    Videos |
 | ----------- | --------: |
 | Train       |       774 |
-| Development |       117 |
+| Dev         |       117 |
 | Test        |       224 |
 | **Total**   | **1,115** |
 
@@ -84,7 +84,7 @@ Recommended fields include:
 
 | Field             | Description                            |
 | ----------------- | -------------------------------------- |
-| `video_id`        | YouTube video identifier               |
+| `videoId`         | YouTube video identifier               |
 | `super_narrative` | Human-annotated super-narrative        |
 | `narrative`       | Human-annotated fine-grained narrative |
 
