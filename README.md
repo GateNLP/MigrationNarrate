@@ -196,7 +196,7 @@ If you use MigrationNarrate in your research, please cite:
 }
 ```
 
-The paper was accepted to the **Main Conference of EMNLP 2026**. The citation will be updated with the official ACL Anthology proceedings information when available.
+The paper was accepted to the **Main Conference of EMNLP 2026**. 
 
 ---
 
