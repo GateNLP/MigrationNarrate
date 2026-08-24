@@ -155,8 +155,6 @@ The requirements.txt file contains the Python dependencies required by the trans
 
 The script also requires FFmpeg to be installed and available on the system path.
 
-For GPU transcription, a CUDA-compatible NVIDIA GPU and the CUDA/cuDNN libraries required by faster-whisper must be available.
-
 **Generating Transcripts**
 
 We provide a script for generating transcripts from locally available video files:
