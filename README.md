@@ -96,7 +96,7 @@ These data can be useful for, for example, weakly supervised, semi-supervised, o
 
 Contains the hierarchical migration narrative taxonomy used for annotation, including the **12 super-narratives and 53 narrative labels** and their definitions.
 
-The taxonomy is based on the migration narrative taxonomy introduced by the European Commission's Joint Research Centre (JRC). Narrative definitions used during annotation were developed for this study and manually reviewed by the authors.
+The taxonomy is based on the migration narrative taxonomy introduced in the European Commission Joint Research Centre (JRC) report [*Navigating migration narratives: Research insights and strategies for effective communication*](https://publications.jrc.ec.europa.eu/repository/handle/JRC142039).
 
 ---
 
