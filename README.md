@@ -80,11 +80,6 @@ The annotation `None` indicates that, after human annotation/adjudication, no mi
 
 Contains the identifiers of the **4,425 migration-related videos** retained by the automatic filtering pipeline but not selected for human annotation.
 
-
-### `data/unlabelled_data.tsv`
-
-Contains the identifiers of the **4,425 migration-related videos** retained by the automatic filtering pipeline but not selected for human annotation.
-
 These data can be useful for, for example, weakly supervised, semi-supervised, or further manual annotation experiments.
 
 ### `taxonomy/migration_narratives_taxonomy.tsv`
